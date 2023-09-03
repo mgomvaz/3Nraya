@@ -46,3 +46,7 @@ siendo PLAYER el jugador del que queremos saber
 ### Saber record en enfrentamientos
 Para saber el historico de enfrentamientos y sus resultados de dos jugadores haremos esta petición:<br>
 curl http://localhost:5000/record_partidas/PLAYER1/PLAYER2 <br>
+
+
+## Pruebas unitarias
+En el repositorio hay un archivo .json que son las pruebas para probar la API, para ello hay que tener instalado la herramienta POSTMAN e importar el archivo. una vez importado e iniciado el servidor podemos ejecutar las peticiones.
