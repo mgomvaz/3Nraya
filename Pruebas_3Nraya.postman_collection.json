@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "ea633a45-bfa5-4fa9-b619-3739bf0867f1",
+		"name": "Pruebas 3Nraya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14948423"
+	},
+	"item": [
+		{
+			"name": "empieza partida",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/start/miguel/enrique",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"start",
+						"miguel",
+						"enrique"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movimiento1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/play/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"play",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movimiento2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/play/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"play",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movimiento3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/play/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"play",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movimiento4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/play/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"play",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movimiento5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/play/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"play",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "partidas ganadas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/partidas_ganadas/miguel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"partidas_ganadas",
+						"miguel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Record entre dos jugadores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/record_partidas/miguel/enrique",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"record_partidas",
+						"miguel",
+						"enrique"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "partidas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/partidas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"partidas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "jugadores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/jugadores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"jugadores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
